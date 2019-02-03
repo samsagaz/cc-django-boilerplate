@@ -1,5 +1,5 @@
-cookiecutter-flask
-==================
+CC Django Boilerplate
+=====================
 
 A Django template for cookiecutter_.
 
@@ -13,17 +13,17 @@ Use it now
     $ pip install cookiecutter
     $ cookiecutter https://github.com/samsagaz/cc-django-boilerplate.git
 
-You will be asked about your basic info (name, project name, app name, etc.). This info will be used in your new project.
+You will be asked about your basic info (project name, etc.). This info will be used in your new project.
 
 Features
 --------
 
-- Bootstrap 4 and Font Awesome 4 with starter templates
+- None
 
 Screenshots
 -----------
 
-.. image:: https://user-images.githubusercontent.com/2379650/45271508-917f1c00-b475-11e8-9153-7f7385707a8b.png
+.. image:: https://
     :alt: Home page
 
 License
