@@ -1,0 +1,8 @@
+{
+    "project_name": "project_name",
+    "target": ["docker", "local", "production"],
+    "ssl": ["True", "False"],
+    "huey": ["True", "False"],
+    "postgres": ["True", "False"],
+    "wdb": ["True", "False"]
+}
