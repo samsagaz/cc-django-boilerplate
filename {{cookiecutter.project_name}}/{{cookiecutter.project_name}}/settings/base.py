@@ -4,6 +4,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Application definition
+SECRET_KEY = os.environ.get("SECRET_KEY")
 
 DJANGO_APPS = [
     'django.contrib.admin',

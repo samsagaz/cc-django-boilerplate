@@ -2,8 +2,6 @@ import os
 from .base import *  # NOQA
 
 
-SECRET_KEY = os.environ.get("SECRET_KEY")
-
 ALLOWED_HOSTS = [
     "{{cookiecutter.project_name}}.com.ar",
 ]
