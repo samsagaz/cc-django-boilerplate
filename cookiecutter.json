@@ -4,7 +4,6 @@
     "repo_name": "{{cookiecutter.name|replace(' ', '-')|lower}}",
     "github_username": "samsagaz",
     "description": "A short description of the project.",
-    "models": "Comma-separated list of models",
     "target": ["docker", "local", "production"],
     "ssl": ["True", "False"],
     "huey": ["True", "False"],
