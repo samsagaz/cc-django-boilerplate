@@ -14,7 +14,12 @@ services:
     volumes:
       - .:/code
     ports:
+{%- if cookiecutter.ssl == "True" %}
       - "127.0.0.1:443:8000"
+{% endif %}
+{%- if cookiecutter.ssl == "False"" %}
+      - "127.0.0.1:80:8000"
+{%- endif %}
     environment:
       - SECRET_KEY=${SECRET_KEY}
       - DB_USER=postgres

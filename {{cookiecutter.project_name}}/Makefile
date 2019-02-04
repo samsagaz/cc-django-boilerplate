@@ -58,7 +58,7 @@ only_travis_test:
 travis-test: pep8 only_travis_test
 
 kill_docker:
-	docker-compose kill -s SIGINT
+	docker kill $(docker ps -q)
 
 clean-python:
 	rm -fr build
