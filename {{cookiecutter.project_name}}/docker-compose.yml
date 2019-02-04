@@ -74,7 +74,9 @@ services:
       - "1984:1984"
 {% endif %}
 
+{%- if cookiecutter.huey == "True" or cookiecutter.postgres == "True" %}
 volumes:
+{% endif %}
 {%- if cookiecutter.huey == "True" %}
   redis-data:
 {%- endif %}
